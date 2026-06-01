@@ -1,0 +1,701 @@
+window.SUSHI_JOURNEY_DATA = [
+  {
+    "id": "mianchi-1061-hezi-you",
+    "year": 1061,
+    "city": "渑池",
+    "country": "中国",
+    "lat": 34.7693,
+    "lng": 111.7619,
+    "work": "和子由渑池怀旧",
+    "catalogue": "七言律诗",
+    "genre": "诗",
+    "period": "early",
+    "original": "人生到处知何似，应似飞鸿踏雪泥。\n泥上偶然留指爪，鸿飞那复计东西。\n老僧已死成新塔，坏壁无由见旧题。\n往日崎岖还记否，路长人困蹇驴嘶。",
+    "context": "嘉祐六年（1061），苏轼离京赴凤翔府任签书判官，途经渑池，回想数年前与弟苏辙（字子由）赴京应举时同宿渑池僧舍、题诗壁上的旧事。苏辙先有《怀渑池寄子瞻兄》，此篇是兄长的酬和之作。",
+    "meaning": "全诗以「雪泥鸿爪」设喻：人生行迹就像鸿雁偶然踏在雪泥上留下的爪印，转眼飞去，东西难计。这是青年苏轼初入仕途时对人生无常与漂泊的早慧体悟，「雪泥鸿爪」后来成为汉语中的常用成语。",
+    "source": {
+      "label": "维基百科：苏轼",
+      "url": "https://zh.wikipedia.org/wiki/苏轼",
+      "summary": "据维基百科「苏轼」条目，1061 年苏轼赴凤翔任职，《和子由渑池怀旧》作于赴任途经渑池之际，与苏辙原唱相酬答。"
+    },
+    "sources": [
+      {
+        "label": "维基百科：苏轼",
+        "url": "https://zh.wikipedia.org/wiki/苏轼",
+        "summary": "生平与任职年代的传记依据。"
+      },
+      {
+        "label": "维基文库：蘇軾",
+        "url": "https://zh.wikisource.org/wiki/作者:蘇軾",
+        "summary": "原文据维基文库所收苏轼作品与通行选本校录。"
+      }
+    ],
+    "collections": [
+      "early"
+    ]
+  },
+  {
+    "id": "hangzhou-1072-wanghulou",
+    "year": 1072,
+    "city": "杭州",
+    "country": "中国",
+    "lat": 30.2592,
+    "lng": 120.1482,
+    "work": "六月二十七日望湖楼醉书",
+    "catalogue": "七言绝句",
+    "genre": "诗",
+    "period": "provincial",
+    "original": "黑云翻墨未遮山，白雨跳珠乱入船。\n卷地风来忽吹散，望湖楼下水如天。",
+    "context": "熙宁五年（1072），苏轼任杭州通判。一个夏日午后，他在西湖边的望湖楼上饮酒，恰遇骤雨忽来忽止，即景写下《望湖楼醉书》组诗，此为其一。",
+    "meaning": "二十八字写尽西湖夏雨的瞬息变幻：「黑云翻墨」「白雨跳珠」比喻新警，风雨倏忽而过、水天一色，见出诗人捕捉自然动态的功力，也透出外任时旷朗轻快的心境。",
+    "source": {
+      "label": "维基百科：苏轼",
+      "url": "https://zh.wikipedia.org/wiki/苏轼",
+      "summary": "据维基百科「苏轼」条目，1071–1074 年苏轼任杭州通判，此诗为杭州时期即景之作。"
+    },
+    "place": {
+      "name": "望湖楼",
+      "address": "杭州西湖北岸、宝石山下",
+      "kind": "创作地点",
+      "certainty": "medium",
+      "note": "望湖楼（又名先得楼、看经楼）在西湖北岸，是诗题明确点出的地点；现存建筑为后世重建，坐标取西湖北岸一带，作城市—地标级标注。",
+      "lat": 30.2592,
+      "lng": 120.1482,
+      "source": {
+        "label": "维基百科：苏轼",
+        "url": "https://zh.wikipedia.org/wiki/苏轼"
+      }
+    },
+    "sources": [
+      {
+        "label": "维基百科：苏轼",
+        "url": "https://zh.wikipedia.org/wiki/苏轼",
+        "summary": "杭州通判任职年代与地点的传记依据。"
+      },
+      {
+        "label": "维基文库：蘇軾",
+        "url": "https://zh.wikisource.org/wiki/作者:蘇軾",
+        "summary": "原文据维基文库所收苏轼作品与通行选本校录。"
+      }
+    ],
+    "collections": [
+      "provincial"
+    ]
+  },
+  {
+    "id": "hangzhou-1073-yinhushang",
+    "year": 1073,
+    "city": "杭州",
+    "country": "中国",
+    "lat": 30.2451,
+    "lng": 120.13,
+    "work": "饮湖上初晴后雨二首·其二",
+    "catalogue": "七言绝句",
+    "genre": "诗",
+    "period": "provincial",
+    "original": "水光潋滟晴方好，山色空蒙雨亦奇。\n欲把西湖比西子，淡妆浓抹总相宜。",
+    "context": "熙宁六年（1073）前后，苏轼任杭州通判期间，与友人泛舟西湖，从晴到雨，写下《饮湖上初晴后雨》二首，此为脍炙人口的第二首。",
+    "meaning": "把西湖比作春秋美女西施，无论淡妆浓抹都自相宜——「西子湖」之名由此而来。它以一个绝妙比喻定格了西湖的整体气质，也体现苏轼写景能从具体景物跃入整体神韵。",
+    "source": {
+      "label": "维基百科：苏轼",
+      "url": "https://zh.wikipedia.org/wiki/苏轼",
+      "summary": "据维基百科「苏轼」条目，此诗作于杭州通判任内，「欲把西湖比西子」为西湖别称「西子湖」的来源。"
+    },
+    "sources": [
+      {
+        "label": "维基百科：苏轼",
+        "url": "https://zh.wikipedia.org/wiki/苏轼",
+        "summary": "杭州时期与诗作背景的传记依据。"
+      },
+      {
+        "label": "维基文库：蘇軾",
+        "url": "https://zh.wikisource.org/wiki/作者:蘇軾",
+        "summary": "原文据维基文库所收苏轼作品与通行选本校录。"
+      }
+    ],
+    "collections": [
+      "provincial"
+    ]
+  },
+  {
+    "id": "mizhou-1075-jiangchengzi-jimeng",
+    "year": 1075,
+    "city": "密州",
+    "country": "中国",
+    "lat": 35.9975,
+    "lng": 119.4102,
+    "work": "江城子·乙卯正月二十日夜记梦",
+    "catalogue": "词 · 江城子",
+    "genre": "词",
+    "period": "provincial",
+    "original": "十年生死两茫茫，不思量，自难忘。千里孤坟，无处话凄凉。纵使相逢应不识，尘满面，鬓如霜。\n夜来幽梦忽还乡，小轩窗，正梳妆。相顾无言，惟有泪千行。料得年年肠断处，明月夜，短松冈。",
+    "context": "乙卯即熙宁八年（1075），苏轼任密州知州。此年正月二十日夜，他梦见亡妻王弗——王弗卒于治平二年（1065），至此恰是十年——醒后写下这首悼亡词。",
+    "meaning": "中国文学史上最著名的悼亡词之一。以「十年生死两茫茫」起，记梦中归乡、夫妻相顾无言，把绵长的思念压进极朴素的口语里。词体本多写艳情，苏轼却用它承载生死至情，拓宽了词的题材。",
+    "source": {
+      "label": "维基百科：苏轼",
+      "url": "https://zh.wikipedia.org/wiki/苏轼",
+      "summary": "据维基百科「苏轼」条目，1074–1076 年苏轼知密州；「乙卯」为 1075 年，此词为悼念亡妻王弗而作。"
+    },
+    "sources": [
+      {
+        "label": "维基百科：苏轼",
+        "url": "https://zh.wikipedia.org/wiki/苏轼",
+        "summary": "密州任职年代与悼亡背景的传记依据。"
+      },
+      {
+        "label": "维基文库：蘇軾",
+        "url": "https://zh.wikisource.org/wiki/作者:蘇軾",
+        "summary": "原文据维基文库所收苏轼词作与通行选本校录。"
+      }
+    ],
+    "collections": [
+      "provincial"
+    ]
+  },
+  {
+    "id": "mizhou-1075-jiangchengzi-chulie",
+    "year": 1075,
+    "city": "密州",
+    "country": "中国",
+    "lat": 35.9962,
+    "lng": 119.4205,
+    "work": "江城子·密州出猎",
+    "catalogue": "词 · 江城子",
+    "genre": "词",
+    "period": "provincial",
+    "original": "老夫聊发少年狂，左牵黄，右擎苍，锦帽貂裘，千骑卷平冈。为报倾城随太守，亲射虎，看孙郎。\n酒酣胸胆尚开张。鬓微霜，又何妨！持节云中，何日遣冯唐？会挽雕弓如满月，西北望，射天狼。",
+    "context": "熙宁八年（1075）冬，苏轼任密州知州，率众出猎于常山一带，借出猎抒怀而作。他在给友人的信中自言此词「令东州壮士抵掌顿足而歌之」，是有意尝试一种不同于柔婉词风的写法。",
+    "meaning": "公认的豪放词代表作之一。以出猎场面写报国壮志，用孙权射虎、冯唐持节、挽弓射天狼等典故，自比当世英雄、盼望被朝廷重用、抗击西北边患。它标志着苏轼有意识地把雄豪之气带入词体。",
+    "source": {
+      "label": "维基百科：苏轼",
+      "url": "https://zh.wikipedia.org/wiki/苏轼",
+      "summary": "据维基百科「苏轼」条目，此词作于密州知州任内的一次出猎，常被视为豪放词的开山之作。"
+    },
+    "sources": [
+      {
+        "label": "维基百科：苏轼",
+        "url": "https://zh.wikipedia.org/wiki/苏轼",
+        "summary": "密州任职与出猎背景的传记依据。"
+      },
+      {
+        "label": "维基文库：蘇軾",
+        "url": "https://zh.wikisource.org/wiki/作者:蘇軾",
+        "summary": "原文据维基文库所收苏轼词作与通行选本校录。"
+      }
+    ],
+    "collections": [
+      "provincial"
+    ]
+  },
+  {
+    "id": "mizhou-1076-shuidiaogetou",
+    "year": 1076,
+    "city": "密州",
+    "country": "中国",
+    "lat": 35.9988,
+    "lng": 119.415,
+    "work": "水调歌头·明月几时有",
+    "catalogue": "词 · 水调歌头",
+    "genre": "词",
+    "period": "provincial",
+    "original": "明月几时有？把酒问青天。不知天上宫阙，今夕是何年。我欲乘风归去，又恐琼楼玉宇，高处不胜寒。起舞弄清影，何似在人间。\n转朱阁，低绮户，照无眠。不应有恨，何事长向别时圆？人有悲欢离合，月有阴晴圆缺，此事古难全。但愿人长久，千里共婵娟。",
+    "context": "据词前小序，此词作于丙辰中秋，即熙宁九年（1076），苏轼在密州，欢饮达旦、大醉之后，兼怀弟弟苏辙（子由）而作。此时兄弟二人已多年未见。",
+    "meaning": "千古传诵的中秋词。由问月、欲归天上写到人间团圆，把individual的离愁升华为对天下离人的祝愿——「但愿人长久，千里共婵娟」。它在旷达与深情之间取得平衡，是苏轼词中境界最为浑融的一篇。",
+    "source": {
+      "label": "维基百科：苏轼",
+      "url": "https://zh.wikipedia.org/wiki/苏轼",
+      "summary": "据维基百科「苏轼」条目及词前小序，此词为丙辰（1076）中秋于密州所作，兼怀其弟苏辙。"
+    },
+    "sources": [
+      {
+        "label": "维基百科：苏轼",
+        "url": "https://zh.wikipedia.org/wiki/苏轼",
+        "summary": "密州时期与中秋怀人背景的传记依据。"
+      },
+      {
+        "label": "维基文库：蘇軾",
+        "url": "https://zh.wikisource.org/wiki/作者:蘇軾",
+        "summary": "原文及词序据维基文库所收苏轼词作与通行选本校录。"
+      }
+    ],
+    "collections": [
+      "provincial"
+    ]
+  },
+  {
+    "id": "xuzhou-1078-huanxisha-zaohua",
+    "year": 1078,
+    "city": "徐州",
+    "country": "中国",
+    "lat": 34.2058,
+    "lng": 117.284,
+    "work": "浣溪沙·簌簌衣巾落枣花",
+    "catalogue": "词 · 浣溪沙",
+    "genre": "词",
+    "period": "provincial",
+    "original": "簌簌衣巾落枣花，村南村北响缲车，牛衣古柳卖黄瓜。\n酒困路长惟欲睡，日高人渴漫思茶，敲门试问野人家。",
+    "context": "元丰元年（1078），苏轼任徐州知州。这年徐州先旱后雨，他到城东石潭谢雨，沿途经过乡村，写下《浣溪沙》组词五首，此为第四首。",
+    "meaning": "以白描手法写初夏农村景象：枣花落、缲车响、卖黄瓜，再到旅人酒困思茶、敲门问水。它把士大夫的目光投向田间日常，开宋词写农村风物之先，质朴亲切而有生活气息。",
+    "source": {
+      "label": "维基百科：苏轼",
+      "url": "https://zh.wikipedia.org/wiki/苏轼",
+      "summary": "据维基百科「苏轼」条目，1077–1079 年苏轼知徐州，《浣溪沙》组词作于徐州城东石潭谢雨途中。"
+    },
+    "place": {
+      "name": "徐州城东石潭一带",
+      "address": "江苏徐州城东",
+      "kind": "谢雨沿途",
+      "certainty": "low",
+      "note": "组词为谢雨道上沿途所作，并非单一定点；坐标取徐州城区作城市级标注。",
+      "lat": 34.2058,
+      "lng": 117.284,
+      "source": {
+        "label": "维基百科：苏轼",
+        "url": "https://zh.wikipedia.org/wiki/苏轼"
+      }
+    },
+    "sources": [
+      {
+        "label": "维基百科：苏轼",
+        "url": "https://zh.wikipedia.org/wiki/苏轼",
+        "summary": "徐州任职与谢雨背景的传记依据。"
+      },
+      {
+        "label": "维基文库：蘇軾",
+        "url": "https://zh.wikisource.org/wiki/作者:蘇軾",
+        "summary": "原文据维基文库所收苏轼词作与通行选本校录。"
+      }
+    ],
+    "collections": [
+      "provincial"
+    ]
+  },
+  {
+    "id": "huangzhou-1080-busuanzi-dinghuiyuan",
+    "year": 1080,
+    "city": "黄州",
+    "country": "中国",
+    "lat": 30.4486,
+    "lng": 114.8801,
+    "work": "卜算子·黄州定慧院寓居作",
+    "catalogue": "词 · 卜算子",
+    "genre": "词",
+    "period": "huangzhou",
+    "original": "缺月挂疏桐，漏断人初静。谁见幽人独往来，缥缈孤鸿影。\n惊起却回头，有恨无人省。拣尽寒枝不肯栖，寂寞沙洲冷。",
+    "context": "元丰三年（1080），苏轼因「乌台诗案」被贬为黄州团练副使，初到黄州，寓居于定慧院。词题点明即此时此地之作。",
+    "meaning": "借月夜孤鸿自喻：「拣尽寒枝不肯栖，寂寞沙洲冷」，写贬谪初期的孤独、惊惧与高洁自守。它是苏轼黄州心境的起点——尚在惊魂未定与不肯随俗之间，旷达尚未到来。",
+    "source": {
+      "label": "维基百科：苏轼",
+      "url": "https://zh.wikipedia.org/wiki/苏轼",
+      "summary": "据维基百科「苏轼」条目，1080 年苏轼因乌台诗案谪黄州，初寓定慧院，此词为寓居之作。"
+    },
+    "place": {
+      "name": "定慧院",
+      "address": "湖北黄冈（古黄州）",
+      "kind": "寓居地点",
+      "certainty": "medium",
+      "note": "定慧院为词题明言的寓居处，遗址在今黄冈城区；坐标取黄州城区一带作城市—地标级标注。",
+      "lat": 30.4486,
+      "lng": 114.8801,
+      "source": {
+        "label": "维基百科：苏轼",
+        "url": "https://zh.wikipedia.org/wiki/苏轼"
+      }
+    },
+    "sources": [
+      {
+        "label": "维基百科：苏轼",
+        "url": "https://zh.wikipedia.org/wiki/苏轼",
+        "summary": "乌台诗案与谪居黄州背景的传记依据。"
+      },
+      {
+        "label": "维基文库：蘇軾",
+        "url": "https://zh.wikisource.org/wiki/作者:蘇軾",
+        "summary": "原文据维基文库所收苏轼词作与通行选本校录。"
+      }
+    ],
+    "collections": [
+      "huangzhou"
+    ]
+  },
+  {
+    "id": "huangzhou-1082-niannujiao-chibi",
+    "year": 1082,
+    "city": "黄州",
+    "country": "中国",
+    "lat": 30.4461,
+    "lng": 114.8662,
+    "work": "念奴娇·赤壁怀古",
+    "catalogue": "词 · 念奴娇",
+    "genre": "词",
+    "period": "huangzhou",
+    "original": "大江东去，浪淘尽，千古风流人物。故垒西边，人道是，三国周郎赤壁。乱石穿空，惊涛拍岸，卷起千堆雪。江山如画，一时多少豪杰。\n遥想公瑾当年，小乔初嫁了，雄姿英发。羽扇纶巾，谈笑间，樯橹灰飞烟灭。故国神游，多情应笑我，早生华发。人生如梦，一尊还酹江月。",
+    "context": "元丰五年（1082），苏轼谪居黄州，游黄州城外的赤鼻矶（即「东坡赤壁」），怀想三国旧事而作。需要说明：苏轼所游的赤鼻矶并非赤壁之战的古战场，词中「人道是，三国周郎赤壁」用「人道是」三字，已表明对地点的存疑。",
+    "meaning": "豪放词的巅峰之作。借大江、乱石、惊涛的壮阔与周瑜的少年功业，反衬自身「早生华发」的失意，最终以「人生如梦，一尊还酹江月」收束——把个人的贬谪苦闷化入历史与江月的宏大时间感中，是苏轼黄州时期由苦闷转向旷达的标志。",
+    "source": {
+      "label": "维基百科：苏轼",
+      "url": "https://zh.wikipedia.org/wiki/苏轼",
+      "summary": "据维基百科「苏轼」条目，此词作于谪居黄州期间游赤鼻矶时；该地为东坡赤壁，与三国赤壁之战的实际地点并非一处。"
+    },
+    "place": {
+      "name": "黄州赤壁（赤鼻矶 / 东坡赤壁）",
+      "address": "湖北黄冈城西长江边",
+      "kind": "游览与怀古地点",
+      "certainty": "medium",
+      "note": "苏轼所游为黄州城西的赤鼻矶，后世称「东坡赤壁」「文赤壁」，以别于湖北赤壁市的三国古战场。坐标取赤鼻矶一带；地点本身可考，但与赤壁之战古战场为两地，须保守区分。",
+      "lat": 30.4461,
+      "lng": 114.8662,
+      "source": {
+        "label": "维基百科：苏轼",
+        "url": "https://zh.wikipedia.org/wiki/苏轼"
+      }
+    },
+    "sources": [
+      {
+        "label": "维基百科：苏轼",
+        "url": "https://zh.wikipedia.org/wiki/苏轼",
+        "summary": "谪居黄州、游赤鼻矶背景及赤壁地望辨析的传记依据。"
+      },
+      {
+        "label": "维基文库：蘇軾",
+        "url": "https://zh.wikisource.org/wiki/作者:蘇軾",
+        "summary": "原文据维基文库所收苏轼词作与通行选本校录。"
+      }
+    ],
+    "collections": [
+      "huangzhou"
+    ]
+  },
+  {
+    "id": "huangzhou-1082-qianchibifu",
+    "year": 1082,
+    "city": "黄州",
+    "country": "中国",
+    "lat": 30.4455,
+    "lng": 114.867,
+    "work": "前赤壁赋",
+    "catalogue": "文赋（节选）",
+    "genre": "赋",
+    "period": "huangzhou",
+    "original": "壬戌之秋，七月既望，苏子与客泛舟游于赤壁之下。清风徐来，水波不兴。……（节选）\n寄蜉蝣于天地，渺沧海之一粟。哀吾生之须臾，羡长江之无穷。\n……惟江上之清风，与山间之明月，耳得之而为声，目遇之而成色，取之无禁，用之不竭，是造物者之无尽藏也，而吾与子之所共适。",
+    "context": "元丰五年（1082）秋七月，苏轼与友人夜游黄州赤壁（赤鼻矶），写下《赤壁赋》（后世称《前赤壁赋》，以别于同年所作《后赤壁赋》）。此处仅录其中名段，全文较长。",
+    "meaning": "以主客问答展开：由人生短暂「蜉蝣」「一粟」的悲叹，转到「江上之清风、山间之明月……取之无禁，用之不竭」的旷达自解。它把贬谪困境升华为一种与天地相安的人生态度，是苏轼黄州思想与古文成就的代表。",
+    "source": {
+      "label": "维基百科：苏轼",
+      "url": "https://zh.wikipedia.org/wiki/苏轼",
+      "summary": "据维基百科「苏轼」条目，《赤壁赋》作于 1082 年谪居黄州、夜游赤鼻矶之时，原文较长，此处为节选名段。"
+    },
+    "sources": [
+      {
+        "label": "维基百科：苏轼",
+        "url": "https://zh.wikipedia.org/wiki/苏轼",
+        "summary": "黄州时期与赤壁夜游背景的传记依据。"
+      },
+      {
+        "label": "维基文库：蘇軾",
+        "url": "https://zh.wikisource.org/wiki/作者:蘇軾",
+        "summary": "节选原文据维基文库所收《赤壁赋》与通行选本校录。"
+      }
+    ],
+    "collections": [
+      "huangzhou"
+    ]
+  },
+  {
+    "id": "huangzhou-1082-dingfengbo",
+    "year": 1082,
+    "city": "黄州",
+    "country": "中国",
+    "lat": 30.452,
+    "lng": 114.895,
+    "work": "定风波·莫听穿林打叶声",
+    "catalogue": "词 · 定风波",
+    "genre": "词",
+    "period": "huangzhou",
+    "original": "莫听穿林打叶声，何妨吟啸且徐行。竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。\n料峭春风吹酒醒，微冷，山头斜照却相迎。回首向来萧瑟处，归去，也无风雨也无晴。",
+    "context": "据词前小序，元丰五年（1082）三月七日，苏轼在黄州沙湖道中遇雨，同行皆狼狈，唯他不觉，雨过天晴后写下此词。",
+    "meaning": "以途中遇雨这件小事写人生态度：「一蓑烟雨任平生」「也无风雨也无晴」，把外界的顺逆都看得平淡。它是苏轼黄州旷达心境最凝练的表达——不是无视风雨，而是在风雨中安然徐行。",
+    "source": {
+      "label": "维基百科：苏轼",
+      "url": "https://zh.wikipedia.org/wiki/苏轼",
+      "summary": "据维基百科「苏轼」条目及词前小序，此词作于 1082 年黄州沙湖道中遇雨之后。"
+    },
+    "sources": [
+      {
+        "label": "维基百科：苏轼",
+        "url": "https://zh.wikipedia.org/wiki/苏轼",
+        "summary": "黄州时期与沙湖遇雨背景的传记依据。"
+      },
+      {
+        "label": "维基文库：蘇軾",
+        "url": "https://zh.wikisource.org/wiki/作者:蘇軾",
+        "summary": "原文及词序据维基文库所收苏轼词作与通行选本校录。"
+      }
+    ],
+    "collections": [
+      "huangzhou"
+    ]
+  },
+  {
+    "id": "huangzhou-1082-linjiangxian-yegui",
+    "year": 1082,
+    "city": "黄州",
+    "country": "中国",
+    "lat": 30.4405,
+    "lng": 114.8835,
+    "work": "临江仙·夜归临皋",
+    "catalogue": "词 · 临江仙",
+    "genre": "词",
+    "period": "huangzhou",
+    "original": "夜饮东坡醒复醉，归来仿佛三更。家童鼻息已雷鸣。敲门都不应，倚杖听江声。\n长恨此身非我有，何时忘却营营。夜阑风静縠纹平。小舟从此逝，江海寄余生。",
+    "context": "元丰五年（1082）前后，苏轼谪居黄州，于城东「东坡」躬耕，夜饮归至江边住所临皋亭，敲门不应，倚杖听江而作。",
+    "meaning": "「长恨此身非我有，何时忘却营营」道出对仕宦营役的厌倦，「小舟从此逝，江海寄余生」则流露归隐江海之想。相传次日有人误传苏轼已挂冠遁去，可见此词写尽了他想要超脱的心绪。",
+    "source": {
+      "label": "维基百科：苏轼",
+      "url": "https://zh.wikipedia.org/wiki/苏轼",
+      "summary": "据维基百科「苏轼」条目，此词作于谪居黄州、夜归临皋亭之时，「东坡」之号亦得名于黄州城东躬耕之地。"
+    },
+    "sources": [
+      {
+        "label": "维基百科：苏轼",
+        "url": "https://zh.wikipedia.org/wiki/苏轼",
+        "summary": "黄州躬耕、夜归临皋背景的传记依据。"
+      },
+      {
+        "label": "维基文库：蘇軾",
+        "url": "https://zh.wikisource.org/wiki/作者:蘇軾",
+        "summary": "原文据维基文库所收苏轼词作与通行选本校录。"
+      }
+    ],
+    "collections": [
+      "huangzhou"
+    ]
+  },
+  {
+    "id": "hangzhou-1090-zengliujingwen",
+    "year": 1090,
+    "city": "杭州",
+    "country": "中国",
+    "lat": 30.253,
+    "lng": 120.151,
+    "work": "赠刘景文",
+    "catalogue": "七言绝句",
+    "genre": "诗",
+    "period": "return",
+    "original": "荷尽已无擎雨盖，菊残犹有傲霜枝。\n一年好景君须记，最是橙黄橘绿时。",
+    "context": "元祐年间，苏轼于元祐四年至六年（1089–1091）再度出知杭州，主持疏浚西湖、修筑「苏堤」。此诗约作于元祐五年（1090），赠给友人刘景文（名季孙），勉励这位年岁渐老的朋友。",
+    "meaning": "以「荷尽」「菊残」写深秋，却归结到「橙黄橘绿」的丰硕——劝人不必伤迟暮，一年中自有最好的时节。它折射出苏轼还朝、再任地方后趋于平和成熟的心态，也是一首广为传诵的励志小诗。",
+    "source": {
+      "label": "维基百科：苏轼",
+      "url": "https://zh.wikipedia.org/wiki/苏轼",
+      "summary": "据维基百科「苏轼」条目，1089–1091 年苏轼再知杭州、修筑苏堤，《赠刘景文》作于此次杭州任内。"
+    },
+    "sources": [
+      {
+        "label": "维基百科：苏轼",
+        "url": "https://zh.wikipedia.org/wiki/苏轼",
+        "summary": "元祐还朝、再知杭州与筑苏堤背景的传记依据。"
+      },
+      {
+        "label": "维基文库：蘇軾",
+        "url": "https://zh.wikisource.org/wiki/作者:蘇軾",
+        "summary": "原文据维基文库所收苏轼作品与通行选本校录。"
+      }
+    ],
+    "collections": [
+      "return"
+    ]
+  },
+  {
+    "id": "huizhou-1096-shilizhi",
+    "year": 1096,
+    "city": "惠州",
+    "country": "中国",
+    "lat": 23.1116,
+    "lng": 114.416,
+    "work": "惠州一绝 · 食荔枝",
+    "catalogue": "七言绝句",
+    "genre": "诗",
+    "period": "lingnan",
+    "original": "罗浮山下四时春，卢橘杨梅次第新。\n日啖荔枝三百颗，不辞长作岭南人。",
+    "context": "绍圣元年（1094），苏轼被贬为宁远军节度副使、惠州安置。此诗约作于绍圣三年（1096）前后，写岭南风物与荔枝之美。",
+    "meaning": "「日啖荔枝三百颗，不辞长作岭南人」以夸张的口吻把贬谪南荒写成乐事。无论这是真旷达还是苦中作乐，都体现了苏轼随遇而安、化苦为甘的性情，是他岭海时期心态的名句。",
+    "source": {
+      "label": "维基百科：苏轼",
+      "url": "https://zh.wikipedia.org/wiki/苏轼",
+      "summary": "据维基百科「苏轼」条目，1094 年苏轼贬惠州，《食荔枝》（惠州一绝）作于惠州安置期间。"
+    },
+    "place": {
+      "name": "惠州（罗浮山一带）",
+      "address": "广东惠州",
+      "kind": "贬居地点",
+      "certainty": "medium",
+      "note": "诗首句言「罗浮山下」，罗浮山在惠州西北。坐标取惠州城区作城市级标注，罗浮山为诗中所咏的邻近名山。",
+      "lat": 23.1116,
+      "lng": 114.416,
+      "source": {
+        "label": "维基百科：苏轼",
+        "url": "https://zh.wikipedia.org/wiki/苏轼"
+      }
+    },
+    "sources": [
+      {
+        "label": "维基百科：苏轼",
+        "url": "https://zh.wikipedia.org/wiki/苏轼",
+        "summary": "贬居惠州背景的传记依据。"
+      },
+      {
+        "label": "维基文库：蘇軾",
+        "url": "https://zh.wikisource.org/wiki/作者:蘇軾",
+        "summary": "原文据维基文库所收苏轼作品与通行选本校录。"
+      }
+    ],
+    "collections": [
+      "lingnan"
+    ]
+  },
+  {
+    "id": "danzhou-1100-liuyueershi-duhai",
+    "year": 1100,
+    "city": "儋州",
+    "country": "中国",
+    "lat": 19.517,
+    "lng": 109.58,
+    "work": "六月二十日夜渡海",
+    "catalogue": "七言律诗",
+    "genre": "诗",
+    "period": "lingnan",
+    "original": "参横斗转欲三更，苦雨终风也解晴。\n云散月明谁点缀？天容海色本澄清。\n空余鲁叟乘桴意，粗识轩辕奏乐声。\n九死南荒吾不恨，兹游奇绝冠平生。",
+    "context": "绍圣四年（1097），苏轼再贬至更远的儋州（今海南儋州），是当时几乎最重的贬谪。元符三年（1100）遇赦北还，六月渡琼州海峡时写下此诗。",
+    "meaning": "「云散月明」「天容海色本澄清」既写渡海实景，也喻政治风雨终将过去、本心澄澈如初。结句「九死南荒吾不恨，兹游奇绝冠平生」把九死一生的远谪反说成平生奇绝之游，是苏轼晚年旷达胸襟的极致表达。",
+    "source": {
+      "label": "维基百科：苏轼",
+      "url": "https://zh.wikipedia.org/wiki/苏轼",
+      "summary": "据维基百科「苏轼」条目，1097 年苏轼贬儋州（海南），1100 年遇赦北归，此诗作于六月渡海北还途中。"
+    },
+    "place": {
+      "name": "琼州海峡（自儋州渡海北归）",
+      "address": "海南儋州 — 琼州海峡",
+      "kind": "渡海北归",
+      "certainty": "low",
+      "note": "诗题点明「夜渡海」，为离开海南、北渡琼州海峡途中所作；坐标取儋州一带作出发地的城市级标注。",
+      "lat": 19.517,
+      "lng": 109.58,
+      "source": {
+        "label": "维基百科：苏轼",
+        "url": "https://zh.wikipedia.org/wiki/苏轼"
+      }
+    },
+    "sources": [
+      {
+        "label": "维基百科：苏轼",
+        "url": "https://zh.wikipedia.org/wiki/苏轼",
+        "summary": "贬儋州、遇赦北归与渡海背景的传记依据。"
+      },
+      {
+        "label": "维基文库：蘇軾",
+        "url": "https://zh.wikisource.org/wiki/作者:蘇軾",
+        "summary": "原文据维基文库所收苏轼作品与通行选本校录。"
+      }
+    ],
+    "collections": [
+      "lingnan"
+    ]
+  },
+  {
+    "id": "chengmai-1100-tongchaoge",
+    "year": 1100,
+    "city": "澄迈",
+    "country": "中国",
+    "lat": 19.74,
+    "lng": 110.007,
+    "work": "澄迈驿通潮阁二首·其二",
+    "catalogue": "七言绝句",
+    "genre": "诗",
+    "period": "lingnan",
+    "original": "余生欲老海南村，帝遣巫阳招我魂。\n杳杳天低鹘没处，青山一发是中原。",
+    "context": "元符三年（1100）苏轼遇赦北归，途经海南澄迈驿（驿旁有通潮阁），登阁北望而作。此时他将离开生活了三年的海南。",
+    "meaning": "「余生欲老海南村」写本以为将终老海南，「青山一发是中原」则把天边一线青山想象成遥远的故国——望乡之情与北归之喜交织。它以极简的笔墨写出晚年苏轼对中原、对归途的深切眺望。",
+    "source": {
+      "label": "维基百科：苏轼",
+      "url": "https://zh.wikipedia.org/wiki/苏轼",
+      "summary": "据维基百科「苏轼」条目，1100 年苏轼自海南北归，过澄迈驿通潮阁作此二诗，此为其二。"
+    },
+    "place": {
+      "name": "澄迈驿 · 通潮阁",
+      "address": "海南澄迈",
+      "kind": "北归途经",
+      "certainty": "medium",
+      "note": "通潮阁在澄迈驿旁，为诗题明言之地；坐标取澄迈一带作城市—地标级标注。",
+      "lat": 19.74,
+      "lng": 110.007,
+      "source": {
+        "label": "维基百科：苏轼",
+        "url": "https://zh.wikipedia.org/wiki/苏轼"
+      }
+    },
+    "sources": [
+      {
+        "label": "维基百科：苏轼",
+        "url": "https://zh.wikipedia.org/wiki/苏轼",
+        "summary": "北归过澄迈背景的传记依据。"
+      },
+      {
+        "label": "维基文库：蘇軾",
+        "url": "https://zh.wikisource.org/wiki/作者:蘇軾",
+        "summary": "原文据维基文库所收苏轼作品与通行选本校录。"
+      }
+    ],
+    "collections": [
+      "lingnan"
+    ]
+  },
+  {
+    "id": "zhenjiang-1101-zitijinshanhuaxiang",
+    "year": 1101,
+    "city": "镇江",
+    "country": "中国",
+    "lat": 32.235,
+    "lng": 119.421,
+    "work": "自题金山画像",
+    "catalogue": "六言诗",
+    "genre": "诗",
+    "period": "lingnan",
+    "original": "心似已灰之木，身如不系之舟。\n问汝平生功业，黄州惠州儋州。",
+    "context": "建中靖国元年（1101）春，苏轼北归途中过镇江金山寺，见寺中李公麟所绘自己的画像，自题此诗。数月后苏轼卒于常州，这首诗近乎其一生的绝笔与自评。",
+    "meaning": "以「已灰之木」「不系之舟」自况晚境的枯淡与漂泊，末二句「问汝平生功业，黄州惠州儋州」尤为沉痛而旷达——把三处贬谪之地反说成平生功业所在。这是苏轼对自己一生的总结：成就不在庙堂，而在患难中安顿身心、写出不朽诗文。",
+    "source": {
+      "label": "维基百科：苏轼",
+      "url": "https://zh.wikipedia.org/wiki/苏轼",
+      "summary": "据维基百科「苏轼」条目，1101 年苏轼北归途经镇江金山寺，自题画像作此诗，同年卒于常州。"
+    },
+    "place": {
+      "name": "金山寺",
+      "address": "江苏镇江金山",
+      "kind": "北归途经",
+      "certainty": "medium",
+      "note": "诗题明言「金山画像」，金山寺在今镇江；坐标取金山一带作城市—地标级标注。",
+      "lat": 32.235,
+      "lng": 119.421,
+      "source": {
+        "label": "维基百科：苏轼",
+        "url": "https://zh.wikipedia.org/wiki/苏轼"
+      }
+    },
+    "sources": [
+      {
+        "label": "维基百科：苏轼",
+        "url": "https://zh.wikipedia.org/wiki/苏轼",
+        "summary": "北归过金山、自题画像与卒于常州背景的传记依据。"
+      },
+      {
+        "label": "维基文库：蘇軾",
+        "url": "https://zh.wikisource.org/wiki/作者:蘇軾",
+        "summary": "原文据维基文库所收苏轼作品与通行选本校录。"
+      }
+    ],
+    "collections": [
+      "lingnan"
+    ]
+  }
+];

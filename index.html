@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>苏轼诗词足迹互动地图 · Su Shi Journey</title>
+    <meta name="description" content="跟着地图与时间线，看苏轼一生从眉山、汴京、杭州、密州、徐州、黄州到惠州、儋州留下的诗词，读原文、看创作背景与含义，并按人生不同时期与心境浏览。">
+    <script>
+      // 渲染前预设主题，避免黑夜模式下出现白闪。
+      (function () {
+        try {
+          var stored = window.localStorage && window.localStorage.getItem("sushi-journey-theme");
+          var theme = (stored === "dark" || stored === "light")
+            ? stored
+            : (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+          document.documentElement.dataset.theme = theme;
+          document.documentElement.dataset.initialThemeLabel = theme === "dark" ? "白天" : "黑夜";
+        } catch (e) {
+          document.documentElement.dataset.theme = "light";
+          document.documentElement.dataset.initialThemeLabel = "黑夜";
+        }
+      })();
+    </script>
+    <link rel="preconnect" href="https://unpkg.com">
+    <link rel="preconnect" href="https://tile.openstreetmap.org">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%235f1c18'/%3E%3Ctext x='16' y='23' font-size='18' text-anchor='middle' fill='%23f6f1e8' font-family='serif'%3E苏%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="topbar" aria-label="页面导航">
+        <a href="#map" class="brand">Su Shi Journey</a>
+        <div class="nav-links">
+          <a href="#periods">时期</a>
+          <a href="#timeline">时间线</a>
+          <a href="#detail">作品详情</a>
+          <a href="#sources">来源</a>
+          <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false" aria-label="切换显示模式"></button>
+        </div>
+      </nav>
+      <script>
+        // 立即填好切换按钮的文字，避免黑夜模式访客看到闪烁。
+        (function () {
+          var btn = document.getElementById("theme-toggle");
+          if (!btn) return;
+          var theme = document.documentElement.dataset.theme === "dark" ? "dark" : "light";
+          btn.textContent = document.documentElement.dataset.initialThemeLabel || (theme === "dark" ? "白天" : "黑夜");
+          btn.setAttribute("aria-pressed", theme === "dark" ? "true" : "false");
+          btn.setAttribute("aria-label", theme === "dark" ? "切换到白天模式" : "切换到黑夜模式");
+        })();
+      </script>
+      <div class="hero-content">
+        <p class="eyebrow">1037–1101 · 一生行迹与诗词</p>
+        <h1>苏轼的足迹</h1>
+        <p class="hero-copy">沿着地图与年份时间线，看苏轼从眉山、汴京到杭州、密州、徐州，再到黄州、惠州、儋州留下的诗词。每一处都附原文、创作背景与含义，也可以按他一生的不同时期与心境来读。</p>
+      </div>
+    </header>
+
+    <main>
+      <section class="controls-section" aria-labelledby="filters-title">
+        <div>
+          <p class="section-kicker">筛选</p>
+          <h2 id="filters-title">按地点、时期与体裁探索</h2>
+        </div>
+        <form class="filters" aria-label="足迹筛选">
+          <label>
+            搜索
+            <input id="search-filter" class="search-input" type="search" placeholder="赤壁 / 水调歌头 / 黄州">
+          </label>
+          <label>
+            地点
+            <select id="city-filter"></select>
+          </label>
+          <label>
+            时期
+            <select id="period-filter"></select>
+          </label>
+          <label>
+            体裁
+            <select id="genre-filter"></select>
+          </label>
+        </form>
+      </section>
+
+      <section class="explorer" aria-label="苏轼足迹地图与时间线">
+        <div class="map-panel">
+          <div class="panel-header">
+            <div>
+              <p class="section-kicker">地图</p>
+              <h2 id="map-title">一生行迹</h2>
+            </div>
+            <p id="result-count" class="result-count" aria-live="polite"></p>
+          </div>
+          <div id="map" role="application" aria-label="苏轼行迹互动地图"></div>
+          <p id="map-warning" class="map-warning" hidden>地图底图需要联网加载；下方时间线和作品详情仍可正常阅读。</p>
+        </div>
+
+        <aside class="timeline-panel" id="timeline" aria-labelledby="timeline-title">
+          <div class="panel-header compact">
+            <div>
+              <p class="section-kicker">时间线</p>
+              <h2 id="timeline-title">年份与作品</h2>
+            </div>
+          </div>
+          <div id="timeline-selection" class="timeline-selection" hidden>
+            <span id="timeline-selection-text"></span>
+            <button id="timeline-detail-link" type="button">查看作品详情</button>
+          </div>
+          <div id="timeline-list" class="timeline-list"></div>
+        </aside>
+      </section>
+
+      <section class="detail-section" id="detail" aria-live="polite">
+        <div class="detail-main">
+          <p class="section-kicker">作品详情</p>
+          <h2 id="detail-work">选择一个地点或年份</h2>
+          <p id="detail-meta" class="detail-meta">点击地图点位或时间线节点后，这里会显示诗词原文、创作背景与含义。</p>
+          <div id="detail-period" class="detail-period" hidden></div>
+          <div id="detail-original" class="poem-original" hidden>
+            <span class="poem-original-label">原文</span>
+            <pre id="detail-original-text" class="poem-original-text"></pre>
+          </div>
+          <div id="detail-reading" class="detail-reading" hidden>
+            <span id="detail-reading-note"></span>
+            <div id="detail-reading-links"></div>
+          </div>
+          <div id="detail-place" class="place-note" hidden>
+            <span id="detail-place-kind"></span>
+            <strong id="detail-place-name"></strong>
+            <span id="detail-place-address"></span>
+            <p id="detail-place-note"></p>
+            <a id="detail-place-source" href="#" target="_blank" rel="noreferrer">查看地点来源</a>
+          </div>
+          <div class="detail-grid">
+            <article>
+              <h3>创作背景</h3>
+              <p id="detail-context">等待选择。</p>
+            </article>
+            <article>
+              <h3>含义与赏析</h3>
+              <p id="detail-meaning">等待选择。</p>
+            </article>
+          </div>
+          <div class="detail-actions">
+            <button id="detail-map-link" class="detail-map-link" type="button" hidden>查看地图位置</button>
+            <a id="detail-source" class="source-link" href="#" target="_blank" rel="noreferrer" hidden>查看参考来源</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="periods-section" id="periods" aria-labelledby="periods-title">
+        <div class="section-heading">
+          <p class="section-kicker">人生时期</p>
+          <h2 id="periods-title">不同时期，不同心境</h2>
+          <p class="section-lead">苏轼一生宦海浮沉，心态也随之转变。下面按五个时期分组，既能读到每个阶段的代表作品，也能看到他从意气风发到旷达超脱的心路。</p>
+        </div>
+        <nav id="period-nav" class="period-nav" aria-label="时期快速导航"></nav>
+        <div id="period-list" class="period-list"></div>
+      </section>
+
+      <section class="sources-section" id="sources" aria-labelledby="sources-title">
+        <p class="section-kicker">资料说明</p>
+        <h2 id="sources-title">保守表述，便于后续扩展</h2>
+        <p>第一版选取苏轼一生的代表诗词节点。原文以维基文库等公开文本与通行选本为据；生平与系年以维基百科「苏轼」条目等为基础。对地点与系年不完全确定之处，页面采用「人道是」「约作于」「城市级标注」等保守表达。例如《念奴娇·赤壁怀古》所咏的黄州赤鼻矶（东坡赤壁），与三国赤壁之战的古战场并非一处，页面已分别说明。</p>
+        <div id="source-list" class="source-list"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>静态网页原型 · Leaflet + OpenStreetMap · 内容可在 <code>data/sushi-journey.json</code> 中维护 · 由 Agent-Poet 维护</p>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="data/sushi-journey.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
